@@ -7,8 +7,8 @@ Author:
 
 March 2015
 """
-def say_hello():
-    print 'Hello World'
+def say_hello(who=''):
+    print 'Hello World' + ' ' + who
 
 if __name__ == '__main__':
-    say_hello()
+    say_hello('mum!')
